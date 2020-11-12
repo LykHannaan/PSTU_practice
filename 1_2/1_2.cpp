@@ -2,16 +2,16 @@
 #include <math.h>
 using namespace std;
 
-float a, b;
+float x, y;
 
 int main()
 {
     setlocale(LC_ALL, "RUS");
-    cin >> a >> b;
+    cin >> x >> y;
 
-    if (b != 0)
+    if (y != 0)
     {
-        cout << a / b;
+        cout << x / y;
     }
     else
     {
