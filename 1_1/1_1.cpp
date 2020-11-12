@@ -1,9 +1,9 @@
 #include <iostream>
 using namespace std;
 
-int a,b,c;
 int main()
 {
+   int a,b,c;
    setlocale(LC_ALL, "RUS");
     cin >> a >> b >> c;
  
