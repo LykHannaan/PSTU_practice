@@ -20,8 +20,13 @@ int main()
 	setlocale(LC_ALL, "RUS");
 	cout << "Введите длину основания:" << endl;
 	cin >> n;
-	int z = n;  //количество звездочек
-
+	
+       if (n <= 2)
+	     cout << "Не соответствует условию задачи!";
+       else
+       {
+	  int z = n;  //количество звездочек 
+	       
 	while (z >= 1)
 	{
 		for (int i = 1; i <= z; i++)
