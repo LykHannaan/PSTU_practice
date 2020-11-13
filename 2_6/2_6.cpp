@@ -18,7 +18,6 @@ int n; //длина основания
 int main()
 {
 	setlocale(LC_ALL, "RUS");
-	cout << "Введите длину основания:" << endl;
 	cin >> n;
 	
        if (n <= 2)
