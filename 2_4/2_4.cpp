@@ -1,15 +1,16 @@
 #include <iostream>
 using namespace std;
 
-int n; //длина основания.
-
 int main()
 {
 	setlocale(LC_ALL, "RUS");
 	cout << "Введите длину основания:" << endl;
-	cin >> n;
-	int p = n / 2; //количество пробелов.
-	int z = 1;  //количество звездочек.
+	
+	int n; //длина основания
+	int p = n / 2; //количество " "
+	int z = 1;  //количество "*"
+     
+	 cin >> n;
 
 	if ((n <= 3) or (n % 2 == 0))
 		cout << "Не соответствует условию задачи!";
