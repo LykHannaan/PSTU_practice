@@ -32,11 +32,11 @@ int main()
 		{
 			for (int j = 1; j <= p; j++)
 			{
-				cout << " ";
+				cout << "  ";
 			}
 			for (int j = 1; j <= z; j++)
 			{
-				cout << "*";
+				cout << "* ";
 			}
 			p--;
 			z++;
