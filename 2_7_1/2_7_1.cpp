@@ -1,5 +1,5 @@
 #include <iostream>
-#include <math.h>
+#include <cmath>
 using namespace std;
 
 //Необходимо построить квадрат, состоящий из N звездочек. 
