@@ -13,7 +13,7 @@
 #include <iostream>
 using namespace std;
 
-int n, t, s;
+int n, t, sum=0;
 
 int main()
 {
@@ -26,7 +26,7 @@ int main()
 		if (t > max) max = t;
 		if (t < min) min = t;
 	}
-	s = max + min;
-	cout << s;
+	sum = max + min;
+	cout << sum;
 	return 0;
 }
